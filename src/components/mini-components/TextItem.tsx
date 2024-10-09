@@ -7,12 +7,12 @@ const TextItem = ({
 }) => {
   return (
     <div>
-      <div className="p-6 text-white font-sans">
-        <div className=" mb-4">
-          <span className="text-2xl font-bold">{title}</span>
+      <div className="p-4 text-white font-sans">
+        <div className=" mb-2">
+          <span className="text-xl lg:text-2xl font-bold">{title}</span>
         </div>
         <div>
-          <p className="text-lg leading-relaxed text-gray-300 lg:w-[50vw]">
+          <p className="text-sm lg:text-base leading-relaxed text-gray-300 lg:w-[50vw]">
             {paragraph}
           </p>
         </div>
