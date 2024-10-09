@@ -18,13 +18,13 @@ const Home = () => {
           filter, and retrieve anime data with ease. Start building your
           anime-powered project today, no strings attached!
         </div>
-        <div
-          className="flex justify-center items-center gap-4 flex-row"
-          onClick={() => {
-            navigate("/docs");
-          }}
-        >
-          <button className="bg-white text-black w-28 text-center h-12 flex justify-center items-center text-lg px-8 rounded-lg hover:bg-[#27272A] hover:text-white">
+        <div className="flex justify-center items-center gap-4 flex-row">
+          <button
+            className="bg-white text-black w-28 text-center h-12 flex justify-center items-center text-lg px-8 rounded-lg hover:bg-[#27272A] hover:text-white"
+            onClick={() => {
+              navigate("/docs");
+            }}
+          >
             Docs
           </button>
           <NavItems text="Example" urlPath="/example" />

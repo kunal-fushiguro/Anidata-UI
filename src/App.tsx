@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Docs from "./pages/Docs";
 import Example from "./pages/Example";
+// bas url = https://anidata-api.onrender.com/api/v1/test
 
 const App = () => {
   return (
