@@ -1,5 +1,11 @@
+import Card from "../components/Card";
+
 const Example = () => {
-  return <div>Example</div>;
+  return (
+    <>
+      <Card />
+    </>
+  );
 };
 
 export default Example;

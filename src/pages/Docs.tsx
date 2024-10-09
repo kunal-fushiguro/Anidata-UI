@@ -19,9 +19,9 @@ const Docs = () => {
 
       <Methods method="GET" route="/test" />
       <Methods method="GET" route="/animes?limit=10&skip=0" />
-      <Methods method="GET" route="/manga?limit=10&skip=0" />
-      <Methods method="GET" route="/gerne" />
-      <Methods method="GET" route="/animes/Action?limit=10&skip=0" />
+      <Methods method="GET" route="/mangas?limit=10&skip=0" />
+      <Methods method="GET" route="/animes/genre" />
+      <Methods method="GET" route="/animes/grenes/Action?limit=10&skip=10" />
     </div>
   );
 };
