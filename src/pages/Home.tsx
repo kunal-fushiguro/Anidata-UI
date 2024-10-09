@@ -1,6 +1,8 @@
 import NavItems from "../components/mini-components/NavItems";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
+  const navigate = useNavigate();
   return (
     <div className="flex justify-center items-center h-full w-full lg:flex-row flex-col pt-4">
       <div className="lg:w-[50%] lg:h-[100%] w-full h-[50%] flex justify-center items-center flex-col p-6 lg:p-12">
@@ -16,7 +18,12 @@ const Home = () => {
           filter, and retrieve anime data with ease. Start building your
           anime-powered project today, no strings attached!
         </div>
-        <div className="flex justify-center items-center gap-4 flex-row">
+        <div
+          className="flex justify-center items-center gap-4 flex-row"
+          onClick={() => {
+            navigate("/docs");
+          }}
+        >
           <button className="bg-white text-black w-28 text-center h-12 flex justify-center items-center text-lg px-8 rounded-lg hover:bg-[#27272A] hover:text-white">
             Docs
           </button>
